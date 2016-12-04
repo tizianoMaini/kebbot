@@ -1,7 +1,3 @@
-stages:
-  - staging
-  - production
-  
 staging:
   type: deploy
   - gem install dpl
