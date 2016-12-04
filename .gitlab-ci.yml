@@ -4,7 +4,6 @@ staging:
   - dpl --provider=heroku --app=demo-kebbot --api-key=$HEROKU_API_KEY
   only:
   - master
-
 production:
   type: deploy
   - gem install dpl
