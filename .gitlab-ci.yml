@@ -3,7 +3,6 @@ stages:
   - production
   
 staging:
-  stage: staging
   type: deploy
   - gem install dpl
   - dpl --provider=heroku --app=demo-kebbot --api-key=$HEROKU_API_KEY
@@ -11,7 +10,6 @@ staging:
   - master
 
 production:
-  stage: production
   type: deploy
   - gem install dpl
   - dpl --provider=heroku --app=kebbot --api-key=$HEROKU_API_KEY
