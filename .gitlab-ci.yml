@@ -1,4 +1,4 @@
-production:
-  type:deploy
-  - gem install dpl
-  only:tags
+image: maven:3-jdk-7
+
+build:
+  script: "mvn install -B"
