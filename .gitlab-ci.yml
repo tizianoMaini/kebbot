@@ -1,5 +1,4 @@
 production:
   type:deploy
   - gem install dpl
-  - dpl --provider=heroku --app=kebbot --api-key=$HEROKU_API_KEY
   only:tags
