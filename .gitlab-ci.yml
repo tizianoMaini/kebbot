@@ -1,6 +1,6 @@
 build: 
   script: "ls"
-image: "maven:3-jdk-8"
+image: "kahwee/node-ruby-dpl"
 staging: 
   only: 
     - master
