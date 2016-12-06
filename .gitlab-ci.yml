@@ -1,0 +1,9 @@
+build: 
+  script: "ls"
+image: "kahwee/node-ruby-dpl"
+staging: 
+  only: 
+    - master
+  script:
+    - "dpl --provider=heroku --app=demo-kebbot --api-key=$HEROKU_API_KEY"
+  stage: deploy
