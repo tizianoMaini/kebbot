@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kebbott-ui:war">
+    <output-path>$PROJECT_DIR$/kebbott-ui/target</output-path>
+    <root id="archive" name="kebbott-ui-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kebbott-ui:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -22,10 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="kebbott-backend" />
-        <module name="kebbott-production" />
-        <module name="kebbott-ui" />
-        <module name="kebbott-widgetset" />
+        <module name="kebbot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

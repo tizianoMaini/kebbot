@@ -15,6 +15,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/kebbott-backend/pom.xml" />
+        <option value="$PROJECT_DIR$/kebbott-production/pom.xml" />
+        <option value="$PROJECT_DIR$/kebbott-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/kebbott-widgetset/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />

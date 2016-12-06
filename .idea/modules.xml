@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kebbot.iml" filepath="$PROJECT_DIR$/kebbot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kebbott-backend/kebbott-backend.iml" filepath="$PROJECT_DIR$/kebbott-backend/kebbott-backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kebbott-production/kebbott-production.iml" filepath="$PROJECT_DIR$/kebbott-production/kebbott-production.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kebbott-ui/kebbott-ui.iml" filepath="$PROJECT_DIR$/kebbott-ui/kebbott-ui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kebbott-widgetset/kebbott-widgetset.iml" filepath="$PROJECT_DIR$/kebbott-widgetset/kebbott-widgetset.iml" />
     </modules>
   </component>
 </project>

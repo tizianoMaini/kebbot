@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="kebbott-ui:GWT">
+    <output-path>$PROJECT_DIR$/kebbott-ui/target/classes/VAADIN/widgetsets</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="kebbott-ui/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
