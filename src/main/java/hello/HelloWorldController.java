@@ -32,7 +32,9 @@ public class HelloWorldController {
     List<User> listUsers() {
 
         User u = new User();
-        u.setName("c");
+        u.setFirstname("maurizio");
+        u.setLastname("crozza");
+        u.setUsername("napalm51");
         userDao.addUser(u);
 
         return userDao.listUser();
