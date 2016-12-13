@@ -70,7 +70,7 @@ public class HibernateConfig {
 
     private Properties getHibernateProperties() {
         Properties properties = new Properties();
-        properties.setProperty("hibernate.hbm2ddl.auto", "create");
+        properties.setProperty("hibernate.hbm2ddl.auto", "update");
         properties.setProperty("hibernate.connection.release_mode", "after_transaction");
         properties.setProperty("hibernate.max_fetch_depth", "3");
         properties.setProperty("default_batch_fetch_size", "16");
