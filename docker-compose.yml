@@ -1,0 +1,16 @@
+version: '2'
+services:
+  app:
+    build: .
+    depends_on:
+    - db
+    links:
+    - db
+    ports:
+    - 8080:8080
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: docker
+      POSTGRES_USER: docker
+      POSTGRES_DB: kebbot
