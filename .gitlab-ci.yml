@@ -11,11 +11,10 @@ stages:
   - review
   - staging
   - production
-
 build:
+  image: maven:3-jdk-8
   stage: build
-  script:
-    - command build
+  script: "mvn package -B"
   only:
     - branches
 
